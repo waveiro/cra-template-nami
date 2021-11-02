@@ -1,14 +1,17 @@
 // src/AppRouter.tsx
 
-import React, { Suspense } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { RecoilRoot } from 'recoil'
 import App from './App';
 
 const AppRouter = () => (
   <Router>
-      <Switch>
-        <Route exact path="/" component={App} />
-      </Switch>
+      <RecoilRoot>
+        <Switch>
+          <Route exact path="/" component={App} />
+        </Switch>
+      </RecoilRoot>
   </Router>
 );
 
