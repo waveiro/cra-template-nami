@@ -1,0 +1,32 @@
+{
+  "name": "cra-template-nami",
+  "version": "1.0.0",
+  "description": "Create React App template using: Recoil,React Testing Library,React Router,Tailwind,Styled Components,Typescript,ESLint and Prettier",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "typescript",
+    "recoil",
+    "react-router",
+    "tailwind",
+    "react testing library",
+    "styled-components"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waveiro/cra-template-nami.git"
+  },
+  "license": "MIT",
+  "author": "Willian Arsenio de Sousa",
+  "engines": {
+    "node": ">=14"
+  },
+  "bugs": {
+    "url": "https://github.com/waveiro/cra-template-nami/issues"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}
