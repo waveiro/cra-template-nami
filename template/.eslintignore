@@ -7,3 +7,6 @@ src/serviceWorker.ts
 e2e/jest.config.js
 e2e/puppeteer_standalone.js
 jest-puppeteer.config.js
+tailwind.config.js
+.eslintrc.js
+babel-plugin-macros.config.js
